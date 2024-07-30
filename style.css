@@ -1,0 +1,35 @@
+header, footer {
+  background-color: #2B2D42;
+  color: #8D99AE;
+}
+
+/* Header styles  */
+
+header {
+  padding-top: 50px;
+  position: relative;
+}
+
+nav {
+  text-align: center;
+  background-color: #fff;
+  position: fixed; /* if you dont set a width for a positioned element, it will only be as wide as its content*/
+  top: 0;
+  width: 100%;  /*Can also be achieved by setting left: 0 and right:0 */
+  /*left: 0;
+  right: 0;*/
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
