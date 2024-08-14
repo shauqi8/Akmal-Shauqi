@@ -1,0 +1,226 @@
+/* my-adventure.css */
+
+/* Global styles */
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #337ab7;
+  }
+  
+  .contact-btn {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .contact-btn:hover {
+    background-color: #23527c;
+  }
+  
+  /* Hero styles */
+  .hero {
+    background-image: url("me.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+  }
+  
+  .hero .btn {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .hero .btn:hover {
+    background-color: #23527c;
+  }
+  
+  /* Section styles */
+  section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Work-content styles */
+  .work-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .work-content .image {
+    flex-basis: 40%;
+  }
+  
+  .work-content .image img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .work-content .text {
+    flex-basis: 60%;
+    padding-left: 2em;
+  }
+  
+  /* Solutions styles */
+  .solution {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .solution:last-child {
+    border-bottom: none;
+  }
+  
+  .solution h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* About styles */
+  .about {
+    padding: 2em;
+  }
+  
+  .about p {
+    margin-bottom: 1em;
+  }
+  
+  /* Contact styles */
+  .contact {
+    padding: 2em;
+  }
+  
+  .contact p {
+    margin-bottom: 1em;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    color: #666;
+  }
+  
+  footer p {
+    margin: 0;
+  }
